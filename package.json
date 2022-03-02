@@ -1,0 +1,31 @@
+{
+    "name": "compile-free",
+    "version": "1.0.0",
+    "description": "A free API for rapid compiling xperience",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tech-gunk/compilex.git"
+    },
+    "keywords": [
+        "compilex",
+        "free",
+        "compiler",
+        "online",
+        "compiler"
+    ],
+    "author": "DJ",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tech-gunk/compilex/issues"
+    },
+    "homepage": "https://github.com/tech-gunk/compilex#readme",
+    "dependencies": {
+        "express": "^4.17.3",
+        "shelljs": "^0.8.5"
+    }
+}
